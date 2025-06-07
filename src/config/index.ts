@@ -1,97 +1,128 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Austin Jones — Solutions Architect",
+  author: "Austin Jones",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Technical leader with 6+ years of experience in fintech and financial services, focused on enterprise integrations, API design, and solution delivery. Strong background in bridging business goals with engineering execution. Skilled in Python, SaaS platforms, and developer experience. Known for driving successful implementations with top-tier financial institutions and mentoring technical teams.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "https://media.licdn.com/dms/image/v2/C4E03AQFqzy6DiSkF-A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1649624512231?e=1754524800&v=beta&t=Nw-W7B09H1tOq38HF6CnClqs1Fney-VBX13wzfxkDZ4",
   navLinks: [
-    { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
+    { text: "Experience", href: "#experience" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/austin-jones-262097a0/" },
+    { text: "Github", href: "https://github.com/Austin-Jones" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/share.png",
+  canonicalURL: "https://www.austinwjones.com/",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Austin Jones",
+    specialty: "Manager, Solutions Architecture",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+      "Technical leader with 6+ years of experience in fintech and financial services, focused on enterprise integrations, API design, and solution delivery.",
     email: "example@email.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Alloy",
+      position: "Manager, Solutions Architecture",
+      startDate: "Apr 2025",
+      endDate: "Current",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Manage and develop a team of 5 Solutions Architects supporting enterprise client delivery.",
+"Drive architecture strategy for large financial institutions, ensuring scalable and compliant integrations.",
+"Lead cross-functional collaboration with Product, Engineering, and GTM to unblock delivery risks.",
+"Establish best practices for client onboarding, implementation documentation, and partner enablement.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Alloy",
+      position: "Senior Solutions Architect",
+      startDate: "Oct 2023",
+      endDate: "Apr 2025",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Led technical discovery and implementation for top 20 financial institutions using Alloy’s API platform.",
+        "Improved API schema and developer documentation, reducing integration time.",
+        "Mentored 4 Solutions Architects and guided career development and technical growth.",
+        "Partnered with Sales on RFPs and technical evaluations for $1M+ enterprise deals.",
+        "Standardized use of Amazon MWAA to deliver automated client reporting workflows."
+        
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Alloy",
+      position: "Solutions Architect II",
+      startDate: "Mar 2022",
+      endDate: "Oct 2023",
+      summary:[
+        "Aligned product features with client needs, providing technical input to roadmap planning.",
+"Delivered partner training sessions and technical workshops to reduce support overhead.",
+"Contributed production-level code to SDKs and custom integrations.",
+"Deployed client-specific ML models using AWS Lambda for real-time decisioning."
+]
+    },
+    {
+      company: "Honor Credit Union",
+      position: "Solutions Architect",
+      startDate: "Nov 2020",
+      endDate: "Mar 2022",
+      summary:[
+        "Led technology solutions for internal and member-facing systems aligned with strategic goals.",
+"Built a TensorFlow-powered chatbot resolving 50% of member inquiries.",
+"Championed RPA initiatives to increase support channel throughput and reduce manual tasks."
+
+]
+    },
+    {
+      company: "Honor Credit Union",
+      position: "Front-End Web Developer",
+      startDate: "Aug 2019",
+      endDate: "Nov 2020",
+      summary:[
+        "Reduced load times by 72% through caching and front-end performance improvements.",
+"Maintained compliance with GDPR and CCPA requirements for member data.",
+"Built React-based internal tools for staff productivity."
+
+]
+    },
+    {
+      company: "Shepherd Hardware",
+      position: "Business System Analyst",
+      startDate: "Aug 2018",
+      endDate: "Aug 2019",
+      summary:[
+        "Developed an API to bridge legacy ERP with modern analytics dashboards.",
+"Integrated e-commerce sites with inventory systems for real-time stock visibility."
+]
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "VendorFlow",
+      summary: "Centralize documents, automate renewals, and stay compliant—without the spreadsheet chaos.",
+      linkPreview: "https://vendorflow.app/",
+      linkSource: "https://medium.com/@96austin.j/how-i-built-vendorflow-a-solo-developers-journey-to-launching-a-b2b-saas-260f92d65669",
+      image: "/app-screen.webp",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Focus Tasks | VS Code Extension",
+      summary: "Focus Tasks helps you stay productive by keeping your top priorities front and center — right inside VS Code.",
+      linkPreview: "https://marketplace.visualstudio.com/items?itemName=AustinCodes.focus-tasks&ssr=false#overview",
+      linkSource: "https://medium.com/@96austin.j/how-i-built-a-vs-code-extension-to-stay-focused-and-how-you-can-too-88801e36e934",
+      image: "/vs-code.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Experienced Solutions Architect specializing in the financial space with a proven track record in designing and implementing robust solutions. I possess extensive knowledge in fraud prevention, integrations, and system architecture, enabling me to effectively analyze complex business requirements and translate them into scalable, secure, and innovative solutions.
     `,
-    image: "/alejandro-big.jpg",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQFqzy6DiSkF-A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1649624512231?e=1754524800&v=beta&t=Nw-W7B09H1tOq38HF6CnClqs1Fney-VBX13wzfxkDZ4",
   },
 };
 

@@ -26,7 +26,7 @@ export const SITE_CONTENT: SiteContent = {
     specialty: "Manager, Solutions Architecture",
     summary:
       "Technical leader with 6+ years of experience in fintech and financial services, focused on enterprise integrations, API design, and solution delivery.",
-    email: "example@email.com",
+    email: "96austin.j@gmail.com",
   },
   experience: [
     {

@@ -120,7 +120,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Experienced Solutions Architect specializing in the financial space with a proven track record in designing and implementing robust solutions. I possess extensive knowledge in fraud prevention, integrations, and system architecture, enabling me to effectively analyze complex business requirements and translate them into scalable, secure, and innovative solutions.
+      I like building games in my free time, usually way too many at once. When I’m not at my desk, I’m probably wandering around NYC looking for good food, weird art, or both. Big fan of late-night walks, puzzle-y games, and finding new spots that make the city feel a little less familiar.
     `,
     image: "https://media.licdn.com/dms/image/v2/C4E03AQFqzy6DiSkF-A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1649624512231?e=1754524800&v=beta&t=Nw-W7B09H1tOq38HF6CnClqs1Fney-VBX13wzfxkDZ4",
   },
